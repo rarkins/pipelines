@@ -2,5 +2,8 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "local>rarkins/.github:renovate-config"
-  ]
+  ],
+  "ignorePaths": ["components/deprecated/"],
+  "dependencyDashboard": true,
+  "dependencyDashboardApproval": true
 }
